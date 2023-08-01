@@ -1,0 +1,468 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176270417-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-176270417-1');
+</script>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="generator" content="pandoc">
+  <title>hrithiksagar</title>
+  <script async="" src="./ravikiran_files/analytics.js"></script><script src="./ravikiran_files/jquery-1.js"></script>
+  <link rel="stylesheet" href="./ravikiran_files/bootstrap.css">
+  <link rel="stylesheet" href="./ravikiran_files/bootstrap-theme.css">
+  <script src="./ravikiran_files/bootstrap.js"></script>
+  <style>
+    /* http://stackoverflow.com/questions/18325779/bootstrap-3-collapse-show-state-with-chevron-icon */
+    .panel-heading .accordion-toggle:before {
+      font-family: 'Glyphicons Halflings';
+      content: "\e114";
+      float: left;
+      color: black;
+      padding-right: 6px;
+    }
+    .panel-heading .accordion-toggle.collapsed:before {
+      content: "\e080";
+    }
+table, th, td {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+h4 {
+  color: green;
+}
+  </style>
+
+<style type="text/css">
+</style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html"><font style="font-size:20px; font-weight:500;" color="#003380"> Hrithik Sagar Rachakonda </font></a></li>
+        <li><a href="publications.html"><font size="4px" color="#E62E00"><b>Publications</b></font></a></li>
+        <li><a href="research.html"><font size="4px" color="#E62E00"><b>Current Research</b></font></a></li>
+        <li><a href="past-research.html"><font size="4px" color="#E62E00"><b>Past Research</b></font></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <a name="publications"></a>
+        <p style="margin:-15px 0px 0px 0px;"></p>
+
+<br>
+<br>
+<font size="4">Full list also on <a href="https://scholar.google.co.in/citations?user=oLJTcXIAAAAJ&hl=en">Google scholar</a></font>
+<br>
+<br>
+
+<p style="margin:-2.5px 0px 0px 0px;"></p>
+
+<br>
+<h2>2023</h2>
+
+<ul class="list-group">
+  <li class="list-group-item" style="padding:0 0 0.2% 1.1%;border:1px solid">
+  <div class="media">
+ <div class="pull-left text-center" style="padding:9px 1.5% 0 0; width:45%;" href="">
+<img width="100%" src="./ravikiran_files/cloudfog.png"></div>
+<div class="pull-left text-left" style="padding:0% 0% 0% 0.1%; width:45%;">
+   <p style="margin:-3px 0px 0px 0px;"></p>
+   <h4 style="font-size:14.1px; line-height:120%">
+A Cloud-Fog Architecture for Video Analytics on Large Scale Camera Networks Using Semantic Scene Analysis
+<b><font color=red>[ORAL]</font></b>
+</h4>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">
+Kunal Jain, Kishan Sairam Adapa, Kunwar Grover, Ravi Kiran Sarvadevabhatla, Suresh Purini
+</p>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">In <em><strong>
+IEEE/ACM 23rd International Symposium on Cluster, Cloud and Internet Computing (CCGrid)
+</strong></em>,
+2023
+</p>
+<br>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px; color:#E62E00;">
+A scalable distributed video analytics framework that can process thousands of video streams from sources such as CCTV cameras using semantic scene analysis. 
+</p>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<a href="https://ieeexplore.ieee.org/document/10171548" target="_blank" class="buttonTT">Paper</a>&nbsp;
+<a class="buttonAA" data-toggle="collapse" data-parent="#wLbqhOAabs" href="#wLbqhOAabs-list">Abstract</a>&nbsp;
+<a href="" target="_blank" class="buttonPP">Project page</a>&nbsp;
+<div id="wLbqhOA-list" class="panel-collapse collapse out" style="background-color:#FFE0C2; padding:0% 3% 1% 3%; border-radius:10px;">
+<p style="font-size:15px;">
+</p>
+</div>
+<div id="wLbqhOAabs-list" class="panel-collapse collapse out" style="background-color:#ADEBFF; padding:9px 2.5% 3px 2.5%; border-radius:10px;">
+<p style="margin:0px 0px 0px 0px;"></p>
+<p style="font-size:14.1px;">
+This paper proposes a scalable distributed video analytics framework that can process thousands of video streams from sources such as CCTV cameras using semantic scene analysis. The main idea is to deploy deep learning pipelines on the fog nodes and generate semantic scene description records (SDRs) of video feeds from the associated CCTV cameras. These SDRs are transmitted to the cloud instead of video frames saving on network bandwidth. Using these SDRs stored on the cloud database, we can answer many complex queries and perform rich video analytics, within extremely low latencies. There is no need to scan and process the video streams again on a per query basis. The software architecture on the fog nodes allows for integrating new deep learning pipelines dynamically into the existing system, thereby supporting novel analytics and queries. We demonstrate the effectiveness of the system by proposing a novel distributed algorithm for real-time vehicle pursuit. The proposed algorithm involves asking multiple spatio-temporal queries in an adaptive fashion to reduce the query processing time and is robust to inaccuracies in the deployed deep learning pipelines and camera failures.
+</p>
+<p style="margin:0px 0px 0px 0px;"></p>
+</div>
+</div>
+<div class="pull-right text-center" style="padding:4px 0.5% 0 0; width:5.0%;" href="">
+<img width="100%" src="./ravikiran_files/new_burst.png">
+</div>
+<div class="pull-right text-center" style="padding:4px 0.5% 0 0; width:5.0%;" href=""><img width="100%" src="./ravikiran_files/Oral-session-icon.png"></div>
+</li>
+</ul>
+<p style="margin:-13.5px 0px 0px 0px;"></p>
+<br>
+	  
+<ul class="list-group">
+  <li class="list-group-item" style="padding:0 0 0.2% 1.1%;border:1px solid">
+  <div class="media">
+ <div class="pull-left text-center" style="padding:9px 1.5% 0 0; width:45%;" href="">
+<img width="100%" src="./ravikiran_files/f3.png"></div>
+<div class="pull-left text-left" style="padding:0% 0% 0% 0.1%; width:45%;">
+   <p style="margin:-3px 0px 0px 0px;"></p>
+   <h4 style="font-size:14.1px; line-height:120%">
+F3: Fair and Federated Face Attribute Classification with Heterogeneous Data
+
+</h4>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">
+Samhita Kanaparthy, Manisha Padala, Sankarshan Damle, Ravi Kiran Sarvadevabhatla, Sujit Gujar
+</p>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">In <em><strong>
+The Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)
+</strong></em>,
+2023
+</p>
+<br>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px; color:#E62E00;">
+A novel federated framework for fair facial attribute classification.
+</p>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<a href="https://arxiv.org/pdf/2109.02351.pdf" target="_blank" class="buttonTT">Paper</a>&nbsp;
+<a class="buttonAA" data-toggle="collapse" data-parent="#nYzzAVqabs" href="#nYzzAVqabs-list">Abstract</a>&nbsp;
+<a href="https://arxiv.org/pdf/2109.02351.pdf" target="_blank" class="buttonPP">Project page</a>&nbsp;
+<div id="nYzzAVq-list" class="panel-collapse collapse out" style="background-color:#FFE0C2; padding:0% 3% 1% 3%; border-radius:10px;">
+<p style="font-size:15px;">
+</p>
+</div>
+<div id="nYzzAVqabs-list" class="panel-collapse collapse out" style="background-color:#ADEBFF; padding:9px 2.5% 3px 2.5%; border-radius:10px;">
+<p style="margin:0px 0px 0px 0px;"></p>
+<p style="font-size:14.1px;">
+Fairness across different demographic groups is an essential criterion for face-related tasks, Face Attribute Classification (FAC) being a prominent example. Apart from this trend, Federated Learning (FL) is increasingly gaining traction as a scalable paradigm for distributed training. Existing FL approaches require data homogeneity to ensure fairness. However, this assumption is too restrictive in real-world settings. We propose F3, a novel FL framework for fair FAC under data heterogeneity. F3 adopts multiple heuristics to improve fairness across different demographic groups without requiring data homogeneity assumption. We demonstrate the efficacy of F3 by reporting empirically observed fairness measures and accuracy guarantees on popular face datasets. Our results suggest that F3 strikes a practical balance between accuracy and fairness for FAC.
+</p>
+<p style="margin:0px 0px 0px 0px;"></p>
+</div>
+</div>
+<div class="pull-right text-center" style="padding:4px 0.5% 0 0; width:5.0%;" href="">
+<img width="100%" src="./ravikiran_files/new_burst.png">
+</div>
+</li>
+</ul>
+<p style="margin:-13.5px 0px 0px 0px;"></p>
+<br>
+	  
+<ul class="list-group">
+  <li class="list-group-item" style="padding:0 0 0.2% 1.1%;border:1px solid">
+  <div class="media">
+ <div class="pull-left text-center" style="padding:9px 1.5% 0 0; width:45%;" href="">
+<img width="100%" src="./ravikiran_files/overview.gif"></div>
+<div class="pull-left text-left" style="padding:0% 0% 0% 0.1%; width:45%;">
+   <p style="margin:-3px 0px 0px 0px;"></p>
+   <h4 style="font-size:14.1px; line-height:120%">
+Action-GPT: Leveraging Large-scale Language Models for Improved and Generalized Action Generation
+<b><font color=red>[ORAL]</font></b>
+</h4>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">
+Sai Shashank Kalakonda, Shubh Maheshwari, Ravi Kiran Sarvadevabhatla 
+</p>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">In <em><strong>
+IEEE International Conference on Multimedia & Expo (ICME)
+</strong></em>,
+2023
+</p>
+<br>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px; color:#E62E00;">
+We show how Large Language Models such as GPT can be used to enable better quality and generalized human action generation
+</p>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<a href="https://arxiv.org/abs/2211.15603" target="_blank" class="buttonTT">Paper</a>&nbsp;
+<a class="buttonAA" data-toggle="collapse" data-parent="#teBiRvRabs" href="#teBiRvRabs-list">Abstract</a>&nbsp;
+<a href="https://actiongpt.github.io/" target="_blank" class="buttonPP">Project page</a>&nbsp;
+<div id="teBiRvR-list" class="panel-collapse collapse out" style="background-color:#FFE0C2; padding:0% 3% 1% 3%; border-radius:10px;">
+<p style="font-size:15px;">
+</p>
+</div>
+<div id="teBiRvRabs-list" class="panel-collapse collapse out" style="background-color:#ADEBFF; padding:9px 2.5% 3px 2.5%; border-radius:10px;">
+<p style="margin:0px 0px 0px 0px;"></p>
+<p style="font-size:14.1px;">
+We introduce Action-GPT, a plug-and-play framework for incorporating Large Language Models (LLMs) into text-based action generation models. Action phrases in current motion capture datasets contain minimal and to-the-point information. By carefully crafting prompts for LLMs, we generate richer and fine-grained descriptions of the action. We show that utilizing these detailed descriptions instead of the original action phrases leads to better alignment of text and motion spaces. We introduce a generic approach compatible with stochastic (e.g. VAE-based) and deterministic (e.g. MotionCLIP) text-to-motion models. In addition, the approach enables multiple text descriptions to be utilized. Our experiments show (i) noticeable qualitative and quantitative improvement in the quality of synthesized motions, (ii) benefits of utilizing multiple LLM-generated descriptions, (iii) suitability of the prompt function, and (iv) zero-shot generation capabilities of the proposed approach.
+</p>
+<p style="margin:0px 0px 0px 0px;"></p>
+</div>
+</div>
+<div class="pull-right text-center" style="padding:4px 0.5% 0 0; width:5.0%;" href="">
+<img width="100%" src="./ravikiran_files/new_burst.png">
+</div>
+</li>
+</ul>
+<p style="margin:-13.5px 0px 0px 0px;"></p>
+<br>
+
+<ul class="list-group">
+  <li class="list-group-item" style="padding:0 0 0.2% 1.1%;border:1px solid">
+  <div class="media">
+ <div class="pull-left text-center" style="padding:9px 1.5% 0 0; width:45%;" href="">
+<img width="100%" src="./ravikiran_files/Architecture_merged.jpeg"></div>
+<div class="pull-left text-left" style="padding:0% 0% 0% 0.1%; width:45%;">
+   <p style="margin:-3px 0px 0px 0px;"></p>
+   <h4 style="font-size:14.1px; line-height:120%">
+DSAG: A Scalable Deep Framework for Action-Conditioned Multi-Actor Full Body Motion Synthesis
+</h4>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">
+Debtanu Gupta, Shubh Maheshwari, Sai Shashank Kalakonda, Manasvi Vaidyula, Ravi Kiran Sarvadevabhatla
+</p>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">In <em><strong>
+IEEE Winter Conference on Applications of Computer Vision (WACV)
+</strong></em>,
+2023
+</p>
+<br>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px; color:#E62E00;">
+Scaling human action generation to multiple action categories, action durations and with fine-grained finger-level realism.
+</p>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<a href="https://drive.google.com/file/d/1JvniutD5LdjLjRtsZZq464_m2IN0RNHr/view" target="_blank" class="buttonTT">Paper</a>&nbsp;
+<a class="buttonAA" data-toggle="collapse" data-parent="#jnIpFJSabs" href="#jnIpFJSabs-list">Abstract</a>&nbsp;
+<a href="https://skeleton.iiit.ac.in/dsag" target="_blank" class="buttonPP">Project page</a>&nbsp;
+<div id="jnIpFJS-list" class="panel-collapse collapse out" style="background-color:#FFE0C2; padding:0% 3% 1% 3%; border-radius:10px;">
+<p style="font-size:15px;">
+</p>
+</div>
+<div id="jnIpFJSabs-list" class="panel-collapse collapse out" style="background-color:#ADEBFF; padding:9px 2.5% 3px 2.5%; border-radius:10px;">
+<p style="margin:0px 0px 0px 0px;"></p>
+<p style="font-size:14.1px;">
+We introduce DSAG, a controllable deep neural frame- work for action-conditioned generation of full body multi- actor variable duration actions. To compensate for incom- pletely detailed finger joints in existing large-scale datasets,  we introduce full body dataset variants with detailed fin- ger joints. To overcome shortcomings in existing genera- tive approaches, we introduce dedicated representations for  encoding finger joints. We also introduce novel spatiotem- poral transformation blocks with multi-head self attention  and specialized temporal processing. The design choices enable generations for a large range in body joint counts  (24 - 52), frame rates (13 - 50), global body movement (in- place, locomotion) and action categories (12 - 120), across  multiple datasets (NTU-120, HumanAct12, UESTC, Hu- man3.6M). Our experimental results demonstrate DSAG’s  significant improvements over state-of-the-art, its suitabil- ity for action-conditioned generation at scale.
+</p>
+<p style="margin:0px 0px 0px 0px;"></p>
+</div>
+</div>
+<div class="pull-right text-center" style="padding:4px 0.5% 0 0; width:5.0%;" href="">
+<img width="100%" src="./ravikiran_files/new_burst.png">
+</div>
+
+<iframe width="400" height="300" src="https://www.youtube.com/embed/Ax9SYJnMTj4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</li>
+</ul>
+<p style="margin:-13.5px 0px 0px 0px;"></p>
+<br>
+	  
+<br>
+<h2>2022</h2>
+	  
+<ul class="list-group">
+  <li class="list-group-item" style="padding:0 0 0.2% 1.1%;border:1px solid">
+  <div class="media">
+ <div class="pull-left text-center" style="padding:9px 1.5% 0 0; width:45%;" href="">
+<img width="100%" src="./ravikiran_files/fgvd.png"></div>
+<div class="pull-left text-left" style="padding:0% 0% 0% 0.1%; width:45%;">
+   <p style="margin:-3px 0px 0px 0px;"></p>
+   <h4 style="font-size:14.1px; line-height:120%">
+A Fine-Grained Vehicle Detection (FGVD) Dataset for Unconstrained Roads
+
+</h4>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">
+Prafful Kumar Khoba, Chirag Parikh, Rohit Saluja, Ravi Kiran Sarvadevabhatla, C. V. Jawahar
+</p>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">In <em><strong>
+Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP)
+</strong></em>,
+2022
+</p>
+<br>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px; color:#E62E00;">
+A large-scale fine-grained vehicle dataset for Indian roads.
+</p>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<a href="https://arxiv.org/pdf/2212.14569" target="_blank" class="buttonTT">Paper</a>&nbsp;
+<a class="buttonAA" data-toggle="collapse" data-parent="#KVIUTIlabs" href="#KVIUTIlabs-list">Abstract</a>&nbsp;
+<a href="https://github.com/iHubData-Mobility/public-FGVD" target="_blank" class="buttonPP">Project page</a>&nbsp;
+<div id="KVIUTIl-list" class="panel-collapse collapse out" style="background-color:#FFE0C2; padding:0% 3% 1% 3%; border-radius:10px;">
+<p style="font-size:15px;">
+</p>
+</div>
+<div id="KVIUTIlabs-list" class="panel-collapse collapse out" style="background-color:#ADEBFF; padding:9px 2.5% 3px 2.5%; border-radius:10px;">
+<p style="margin:0px 0px 0px 0px;"></p>
+<p style="font-size:14.1px;">
+The previous fine-grained datasets mainly focus on classification and are often captured in a controlled setup, with the camera focusing on the objects. We introduce the first Fine-Grained Vehicle Detection (FGVD) dataset in the wild, captured from a moving camera mounted on a car. It contains 5502 scene images with 210 unique fine-grained labels of multiple vehicle types organized in a three-level hierarchy. While previous classification datasets also include makes for different kinds of cars, the FGVD dataset introduces new class labels for categorizing two-wheelers, autorickshaws, and trucks. The FGVD dataset is challenging as it has vehicles in complex traffic scenarios with intra-class and inter-class variations in types, scale, pose, occlusion, and lighting conditions. The current object detectors like yolov5 and faster RCNN perform poorly on our dataset due to a lack of hierarchical modeling. Along with providing baseline results for existing object detectors on FGVD Dataset, we also present the results of a combination of an existing detector and the recent Hierarchical Residual Network (HRN) classifier for the FGVD task. Finally, we show that FGVD vehicle images are the most challenging to classify among the fine-grained datasets.
+</p>
+<p style="margin:0px 0px 0px 0px;"></p>
+</div>
+</div>
+<div class="pull-right text-center" style="padding:4px 0.5% 0 0; width:5.0%;" href="">
+</div>
+
+<iframe width="400" height="300" src="https://www.youtube.com/embed/-JENxAmXX6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</li>
+</ul>
+<p style="margin:-13.5px 0px 0px 0px;"></p>
+<br>
+	  
+<ul class="list-group">
+  <li class="list-group-item" style="padding:0 0 0.2% 1.1%;border:1px solid">
+  <div class="media">
+ <div class="pull-left text-center" style="padding:9px 1.5% 0 0; width:45%;" href="">
+<img width="100%" src="./ravikiran_files/Multiclass_Samples.jpeg"></div>
+<div class="pull-left text-left" style="padding:0% 0% 0% 0.1%; width:45%;">
+   <p style="margin:-3px 0px 0px 0px;"></p>
+   <h4 style="font-size:14.1px; line-height:120%">
+DrawMon: A Distributed System for Detection of Atypical Sketch Content in Concurrent Pictionary Games
+</h4>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">
+Nikhil Bansal, Kartik Gupta, Kiruthika Kannan, Sivani Pentapati, Ravi Kiran Sarvadevabhatla
+</p>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">In <em><strong>
+ACM Multimedia (ACMMM)
+</strong></em>,
+2022
+</p>
+<br>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px; color:#E62E00;">
+We introduce a system for detecting atypical whiteboard content in a Pictionary game setting. We also introduce a first of its kind dataset for atypical hand-drawn sketches.
+</p>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<a href="https://arxiv.org/pdf/2211.05429" target="_blank" class="buttonTT">Paper</a>&nbsp;
+<a class="buttonAA" data-toggle="collapse" data-parent="#k3PjVl2abs" href="#k3PjVl2abs-list">Abstract</a>&nbsp;
+<a href="https://drawm0n.github.io/" target="_blank" class="buttonPP">Project page</a>&nbsp;
+<div id="k3PjVl2-list" class="panel-collapse collapse out" style="background-color:#FFE0C2; padding:0% 3% 1% 3%; border-radius:10px;">
+<p style="font-size:15px;">
+</p>
+</div>
+<div id="k3PjVl2abs-list" class="panel-collapse collapse out" style="background-color:#ADEBFF; padding:9px 2.5% 3px 2.5%; border-radius:10px;">
+<p style="margin:0px 0px 0px 0px;"></p>
+<p style="font-size:14.1px;">
+Pictionary, the popular sketch-based guessing game, provides an opportunity to analyze shared goal cooperative game play in restricted communication settings. However, some players occasionally draw atypical sketch content. While such content is occasionally relevant in the game context, it sometimes represents a rule violation and impairs the game experience. To address such situations in a timely and scalable manner, we introduce DrawMon, a novel distributed framework for automatic detection of atypical sketch content in concurrently occurring Pictionary game sessions. We build specialized online interfaces to collect game session data and annotate atypical sketch content, resulting in AtyPict, the first ever atypical sketch content dataset. We use AtyPict to train CanvasNet, a deep neural atypical content detection network. We utilize CanvasNet as a core component of DrawMon. Our analysis of post deployment game session data indicates DrawMon's effectiveness for scalable monitoring and atypical sketch content detection. Beyond Pictionary, our contributions also serve as a design guide for customized atypical content response systems involving shared and interactive whiteboards. 
+</p>
+<p style="margin:0px 0px 0px 0px;"></p>
+</div>
+</div>
+<div class="pull-right text-center" style="padding:4px 0.5% 0 0; width:5.0%;" href="">
+</div>
+
+<iframe width="400" height="300" src="https://www.youtube.com/embed/LAYk2XGwCoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</li>
+</ul>
+<p style="margin:-13.5px 0px 0px 0px;"></p>
+<br>
+	  
+<ul class="list-group">
+  <li class="list-group-item" style="padding:0 0 0.2% 1.1%;border:1px solid">
+  <div class="media">
+ <div class="pull-left text-center" style="padding:9px 1.5% 0 0; width:45%;" href="">
+<img width="100%" src="./ravikiran_files/uvrsabi.png"></div>
+<div class="pull-left text-left" style="padding:0% 0% 0% 0.1%; width:45%;">
+   <p style="margin:-3px 0px 0px 0px;"></p>
+   <h4 style="font-size:14.1px; line-height:120%">
+UAV-based Visual Remote Sensing for Automated Building Inspection
+<b><font color=red>[ORAL]</font></b>
+</h4>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">
+Kushagra Srivastava, Dhruv Patel, Aditya Kumar Jha, Mohhit Kumar Jha, Jaskirat Singh, Ravi Kiran Sarvadevabhatla, Pradeep Kumar Ramancharla, Harikumar Kandath, K. Madhava Krishna
+</p>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">In <em><strong>
+CVCIE Workshop at ECCV
+</strong></em>,
+2022
+</p>
+<br>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px; color:#E62E00;">
+UVRSABI is a software suite which processes drone-based imagery. It aids assessment of earthquake risk for buildings at scale.
+</p>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<a href="https://arxiv.org/pdf/2209.13418" target="_blank" class="buttonTT">Paper</a>&nbsp;
+<a class="buttonAA" data-toggle="collapse" data-parent="#pTG5p7Iabs" href="#pTG5p7Iabs-list">Abstract</a>&nbsp;
+<a href="https://uvrsabi.github.io/" target="_blank" class="buttonPP">Project page</a>&nbsp;
+<div id="pTG5p7I-list" class="panel-collapse collapse out" style="background-color:#FFE0C2; padding:0% 3% 1% 3%; border-radius:10px;">
+<p style="font-size:15px;">
+</p>
+</div>
+<div id="pTG5p7Iabs-list" class="panel-collapse collapse out" style="background-color:#ADEBFF; padding:9px 2.5% 3px 2.5%; border-radius:10px;">
+<p style="margin:0px 0px 0px 0px;"></p>
+<p style="font-size:14.1px;">
+Unmanned Aerial Vehicle (UAV) based remote sensing system incorporated with computer vision has demonstrated potential for assisting building construction and in disaster management like damage assessment during earthquakes. The vulnerability of a building to earthquake can be assessed through inspection that takes into account the expected damage progression of the associated component and the component's contribution to structural system performance. Most of these inspections are done manually, leading to high utilization of manpower, time, and cost. This paper proposes a methodology to automate these inspections through UAV-based image data collection and a software library for post-processing that helps in estimating the seismic structural parameters. The key parameters considered here are the distances between adjacent buildings, building plan-shape, building plan area, objects on the rooftop and rooftop layout. The accuracy of the proposed methodology in estimating the above-mentioned parameters is verified through field measurements taken using a distance measuring sensor and also from the data obtained through Google Earth. 
+</p>
+<p style="margin:0px 0px 0px 0px;"></p>
+</div>
+</div>
+<div class="pull-right text-center" style="padding:4px 0.5% 0 0; width:5.0%;" href="">
+</div>
+<div class="pull-right text-center" style="padding:4px 0.5% 0 0; width:5.0%;" href=""><img width="100%" src="./ravikiran_files/Oral-session-icon.png"></div>
+</li>
+</ul>
+<p style="margin:-13.5px 0px 0px 0px;"></p>
+<br>
+	  
+<ul class="list-group">
+  <li class="list-group-item" style="padding:0 0 0.2% 1.1%;border:1px solid">
+  <div class="media">
+ <div class="pull-left text-center" style="padding:9px 1.5% 0 0; width:45%;" href="">
+<img width="100%" src="./ravikiran_files/psumnet.png"></div>
+<div class="pull-left text-left" style="padding:0% 0% 0% 0.1%; width:45%;">
+   <p style="margin:-3px 0px 0px 0px;"></p>
+   <h4 style="font-size:14.1px; line-height:120%">
+PSUMNet: Unified Modality Part Streams are All You Need for Efficient Pose-based Action Recognition
+
+</h4>
+<p style="margin:-9.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">
+Neel Trivedi, Ravi Kiran Sarvadevabhatla
+</p>
+<p style="margin:-10.0px 0px 0px 0px;"></p>
+<p style="font-size:13.4px">In <em><strong>
+ECCV INTERNATIONAL WORKSHOP AND CHALLENGE ON PEOPLE ANALYSIS
+</strong></em>,
+
+
+<p style="margin:0px 0px 0px 0px;"></p>
+</div>
+</div>
+                              <div class="pull-right text-center" style="padding:4px 0.5% 0 0; width:5.0%;" href=""><img width="100%" src="./ravikiran_files/Oral-session-icon.png"></div>
+      </li>
+    </ul>
+
+
+
+
+<p><a href="#"><span class="glyphicon glyphicon-arrow-up"></span> back to top</a></p>
+</li></div>
+
+</body></html>
